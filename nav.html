@@ -6,6 +6,7 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="nav.css" />
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:900" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type='text/javascript' src="nav.js"></script>
@@ -13,12 +14,22 @@
 </head>
 <body>
     <div class="wrapper">
-        <p>test commit</p>
         <nav>
             <div class="logo">Bunches</div>
                 <ul>
                     <li><a href="#">Home</a></li>
-                     <li><a href="#">Occasions</a></li>
+                     <li><a href="#">Occasions <img class='caret-icon' src='drop-down-arrow.png' width='9px' height='9px'></a>
+                        
+                        <!-- <ul>
+
+                            <li><a href='#'>Birthday</a></li>
+                            <li><a href='#'>Thank You</a></li>
+                            <li><a href='#'>Anniversary</a></li>
+                            <li><a href='#'>Just Because</a></li>
+                            <li><a href='#'>Spring</a></li>
+                        </ul>  -->
+                    
+                    </li>
                      <li><a href="#">About Us</a></li>
                     <li><a href="#">Contact Us</a></li>
                 </ul>
@@ -27,7 +38,10 @@
 
             <div class='text-block'><h1>Transform your space</h1></div>
             <div class="sub-text">With flowers for all occasions</div>
-
+            <div class="scroll-down">
+                <p>SCROLL DOWN</p>
+                <img src='chevron.png' width='30px' heigh='30px'>
+            </div>
         </section>
         <section class="content">
             <div class='flex-container'>

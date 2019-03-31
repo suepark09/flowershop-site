@@ -26,10 +26,6 @@ nav.black {
     padding: 3px 100px;  
 }
 
-.logo {
-
-}
-
 nav .logo {
     padding: 12px 20px;
     height: 80px;
@@ -55,6 +51,10 @@ nav ul li {
     list-style: none;
 }
 
+ul li a:hover {
+    color: #eaa6a0; 
+}
+
 nav ul li a {
     line-height: 80px;
     color: white;
@@ -78,6 +78,12 @@ nav ul li a.active {
     border-radius: 6px;
 
 }
+
+.caret-icon {
+    padding-left: 5px;
+}
+
+
 
 section.sec1 {
     width: 100%;
@@ -109,7 +115,7 @@ border-color: blue; */
 
 .bouquet {
     /* width: 400px; */
-    height: 300px;
+    height: 320px;
     flex: 1;
     /* border: solid;
     border-color: red; */
@@ -121,7 +127,7 @@ border-color: blue; */
 .arrangement {
     /* width: 400px; */
     flex: 1;
-    height: 300px;
+    height: 320px;
     /* border: solid;
     border-color: red; */
     background: url(arrangement.jpg);
@@ -132,7 +138,7 @@ border-color: blue; */
 .plants {
     /* width: 400px; */
     flex: 1;
-    height: 300px;
+    height: 320px;
     /* border: solid;
     border-color: red; */
     background: url(plants.jpg);
@@ -141,7 +147,7 @@ border-color: blue; */
 }
 
 .quote-section {
-    height: 160px;
+    height: 190px;
     background: #f2f2f2;
     margin-top: 0px;
     padding-top: 30px;
@@ -163,7 +169,7 @@ line-height: 40px;
 .quote-div {
     /* border: solid;
     border-color: blue; */
-    margin-top: -7px;
+    margin-top: 15px;
 }
 
 .quoter {
@@ -217,22 +223,32 @@ justify-content: center;
 .text-block {
     color: white; 
     text-align: center;
-    padding-top: 130px;
+    padding-top: 15%;
     padding-bottom: 0px; 
-    font-size: 45px;
+    font-size: 3.3em;
+    /* border: solid;
+    border-color: blue; */
+}
+
+.scroll-down {
+    text-align: center;
+    color: white;
     border: solid;
-    border-color: blue;
+    border-color: red;
+    margin-top: 15%;
+    margin-bottom: 8%;
 }
 
 .sub-text {
     color: white; 
     font-size: 20px;
     font-weight: 500;
-    border: solid;
-    border-color: red;
+    /* border: solid;
+    border-color: red; */
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 3px; 
+    margin-top: -50px;
 }
 h1, h2 { 
     font-family: 'Playfair Display', serif;
