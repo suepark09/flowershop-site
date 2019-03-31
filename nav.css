@@ -4,7 +4,9 @@ body {
     font-family: quicksand;
 
 }
-
+.wrapper {
+    bottom: 0;
+}
 nav {
     position: fixed;
     top: 0;
@@ -90,7 +92,6 @@ section.sec1 {
 .flex-container {
 display: flex;
 align-content: stretch;
-justify-content: space-between;
 height: 300px;
 margin-top: -20px;
 /* border: solid;
@@ -107,8 +108,9 @@ border-color: blue; */
 }
 
 .bouquet {
-    width: 400px;
+    /* width: 400px; */
     height: 300px;
+    flex: 1;
     /* border: solid;
     border-color: red; */
     background: url(wedding.jpg);
@@ -117,7 +119,8 @@ border-color: blue; */
 }
 
 .arrangement {
-    width: 400px;
+    /* width: 400px; */
+    flex: 1;
     height: 300px;
     /* border: solid;
     border-color: red; */
@@ -127,7 +130,8 @@ border-color: blue; */
 }
 
 .plants {
-    width: 400px;
+    /* width: 400px; */
+    flex: 1;
     height: 300px;
     /* border: solid;
     border-color: red; */
@@ -137,7 +141,7 @@ border-color: blue; */
 }
 
 .quote-section {
-    height: 150px;
+    height: 160px;
     background: #f2f2f2;
     margin-top: 0px;
     padding-top: 30px;
@@ -148,15 +152,18 @@ border-color: blue; */
     vertical-align: middle; 
 }
 
-.quote-icon {
-
+.quote {
+    padding-top: -5px;
+    padding-bottom: 5px;
+    /* border: solid;
+border-color: blue; */
+line-height: 40px;
 }
 
-.quote {
-    padding-top: 20px;
-    border: solid;
-border-color: blue;
-line-height: 40px;
+.quote-div {
+    /* border: solid;
+    border-color: blue; */
+    margin-top: -7px;
 }
 
 .quoter {
@@ -183,22 +190,24 @@ justify-content: center;
     color: black;
     font-size:12px;
     text-align: justify;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 25px; 
    
     margin-top: -22px; 
 }
 
 .about-us1 {
-    width: 600px;
+    flex: 1; 
     height: 450px;
     background: white;
-    padding-left: 25px;
+    padding-left: 45px;
+    margin-left: 10px;
+    margin-right: 25px; 
     padding-right: 20px;
     
 }
 .about-us2 {
-    width: 600px;
+   flex: 1; 
     height: 450px;
     background: url(about-us.jpg);
     background-size: cover;
@@ -241,10 +250,10 @@ footer {
     background: black; 
     height: 200px;
     display: flex;
-    border: solid;
+    /* border: solid; */
     line-height: 25px; 
     margin-bottom: 10px;
-    border-color: blue;
+    /* border-color: blue; */
     justify-content: space-between;
 }
 
@@ -261,35 +270,49 @@ footer {
     border-color: red; */
     color: white; 
     padding-left: 25px;
-    padding-top: 25px; 
+    padding-top: 30px; 
+    line-height: 30px;
+}
+
+footer ul li {
+    list-style: none;
+    list-style-type: none;
 }
 
 footer ul li a {
     text-decoration: none;
     color: white;
     list-style: none;
-    list-style-type: none;
+ 
 }
 
 .contact-info {
     height:176px;
     width: 250px;
-    border: solid;
+    /* border: solid; */
     color: white;
-    border-color: red;
+    /* border-color: red; */
     padding-left: 20px;
-    padding-top: 25px; 
+    padding-top: 40px; 
+    line-height: 30px; 
+    float: right;
 
 }
 
 .social-media-section {
     height:200px;
     width: 250px;
-    border: solid;
-    border-color: red;
+    /* border: solid;
+    border-color: red; */
     float: right;
 }
 
+.icon {
+    padding-right: 15px;
+}
+
 .social-media-icon-set {
-    padding-top: 50px;
+    padding-top: 60px;
+    padding-right: 32px;
+    float: right;
 }
