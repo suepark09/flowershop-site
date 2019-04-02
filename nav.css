@@ -68,6 +68,10 @@ nav.black ul li a {
         color: white;
 }
 
+nav.black ul li a:hover {
+    color: #eaa6a0;
+}
+
 nav ul li a:focus {
     outline: none;
 }
@@ -90,9 +94,15 @@ section.sec1 {
     height: 100vh;
     background: url(BG.jpg);
     background-size: cover;
-    background-position: center; 
- 
+    background-position: center;
+    /* border: solid;
+    border-color: red; */
+}
 
+.scroll-down > p > a {
+    text-decoration: none; 
+    color: white;
+    letter-spacing: 3px; 
 }
 
 #flex-container {
@@ -235,7 +245,8 @@ justify-content: center;
     color: white;
     /* border: solid;
     border-color: red; */
-    margin-top: 11%;
+  margin-top: 8%;
+    
     /* padding-bottom: -50px; */
 }
 
