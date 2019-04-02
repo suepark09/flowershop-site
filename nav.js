@@ -5,3 +5,18 @@ $(window).on('scroll', function() {
         $('nav').removeClass('black');
     }
 });
+
+$(document).ready(function() {
+    var headerHeight = $('nav').outerHeight();
+
+    $('.slide-section').click(function(e) {
+        var linkHref = $(this).attr('href');
+   
+        $('html, body').animate({
+            scrollTop: $(linkHref).offset().top - headerHeight
+        }, 700);
+
+        e.preventDefault();
+    });
+});
+

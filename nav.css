@@ -95,7 +95,7 @@ section.sec1 {
 
 }
 
-.flex-container {
+#flex-container {
 display: flex;
 align-content: stretch;
 height: 300px;
@@ -235,8 +235,8 @@ justify-content: center;
     color: white;
     /* border: solid;
     border-color: red; */
-    margin-top: 15%;
-    margin-bottom: 8%;
+    margin-top: 11%;
+    /* padding-bottom: -50px; */
 }
 
 .sub-text {
